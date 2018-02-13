@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -222,6 +222,32 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.front {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+}
+
+.back {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+}
+
+.data {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+}
+
+#services .col-md-4 {
+  text-align: left;
+}
+
+#services .col-md-4 ul {
+  padding-left: 20px;
 }
 
 #portfolio .portfolio-item {
